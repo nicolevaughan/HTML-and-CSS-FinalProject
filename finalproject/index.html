@@ -1,0 +1,218 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Most Played Songs by Dead & Company in 2023 created by Nicole Vaughan" />
+<meta name="keywords" content="Dead & Company, Bob Weir, Mickey Hart, Bill Kreutzmann, John Mayer, Oteil Burbridge, Jeff Chimenti, Final Tour 2023" />
+<title>Most Played Songs in 2023 by Dead & Company</title>
+<link rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Dr+Sugiyama">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="css/Most_Played_Songs.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="css/Most_Played_Songs_print.css" media="print"/>
+<style>
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: blue   /*#818181;*/
+    display: block;
+    transition: 0.3s;
+}
+.sidenav a:hover {
+    color: red /*#f1f1f1*/
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;} /* decreases padding-top for mobile */
+    .sidenav a {font-size: 18px;} /* decreases link font-siz for mobile */
+}
+@media print{
+    script{
+        display:none;
+    }
+    .sidenav{
+        display:none;
+    }
+}
+
+
+/* code for grid view */
+* {
+    box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%; /* this is being overridden in tablet and desktop */
+    float:left; /* setting defaults for everything including tablet and desktop */
+    padding:15px; /* setting defaults for everything including tablet and desktop */
+    
+}
+    
+@media only screen and (min-width: 1200px) {
+/* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+body {
+  background-image: url('media/bears.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+</head>
+<body class="row" style="width:90%;margin-right:auto;margin-left:auto;">
+<article id="main">
+
+    <div class="col-12 col-m-12">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+ 
+    </div>
+    <!-- Header -->
+    <header  class="col-12" >
+        <h1>Most Played Songs in 2023 by Dead & Company</h1>
+
+      
+    </header>
+    <section class="col-4">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front" style="background-image:url('media/Anthem_of_the_Sun.jpg');">
+              </div>
+              <div class="flip-card-back">
+                  <h2>The Other One
+                      <a href="https://en.wikipedia.org/wiki/Anthem_of_the_Sun" target="new">
+                      <i class="fa fa-link" aria-hidden="true"></i>
+                      </a>
+                  </h2>
+                  <ul>
+                      <li>Grateful Dead cover</li>
+                      <li>12 performances</li>
+                      <li><a href="https://www.dead.net/song/other-one">The Other One lyrics</a></li>
+                  </ul>
+              </div>
+            </div>
+        </div>
+    </section>
+    <section class="col-4">
+    
+        <div class="flip-card">
+            <div class="flip-card-inner">
+            <div class="flip-card-front" style="background-image:url('media/Go_to_Heaven.jpg');">
+        </div>
+        <div class="flip-card-back">
+            <h2>Althea
+                <a href="https://en.wikipedia.org/wiki/Go_to_Heaven" target="new">
+                <i class="fa fa-link" aria-hidden="true"></i>
+                </a>
+            </h2>
+            <ul>
+                <li>Grateful Dead cover</li>
+                <li>11 performances</li>
+                <li><a href="https://www.dead.net/song/althea">Althea lyrics</a></li>
+            </ul>
+        </div>
+        </div>
+        </div>
+    </section>
+    <section class="col-4">
+         
+    
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front" style="background-image:url('media/Grateful_Dead.jpg');">
+                      </div>
+                      <div class="flip-card-back">
+                          <h2>Playing in the Band
+                              <a href="https://en.wikipedia.org/wiki/Grateful_Dead_(album)" target="new">
+                              <i class="fa fa-link" aria-hidden="true"></i>
+                              </a>
+                          </h2>
+                          <ul>
+                              <li>Grateful Dead cover</li>
+                              <li>11 performances</li>
+                              <li><a href="https://www.dead.net/song/playing-band">Playing in the Band lyrics</a></li>
+                          </ul>
+                      </div>
+                    </div>
+                </div>
+    </section>
+    
+                <section class="col-12" style="background-color: black;">
+                    
+                    <h3>Dead & Company  
+                    </h3>
+                    <p style="font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', 'Helvetica', 'Arial', 'sans-serif'">
+                    Dead & Company is an American rock band. It formed in 2015 with a lineup of former Grateful Dead member Bob Weir (guitar and vocals), Mickey Hart (drums), and Bill Kreutzmann (drums), along with John Mayer (guitars and vocals), Oteil Burbridge (bass, percussion, and vocal), and Jeff (keyboards).
+                     Dead & Company primarily perform Grateful Dead covers and is credited with popularizing Grateful Dead music to a younger audience. In 2023, Jay Lane replaced Kreutzmann as the band's second drummer for their final tour. 
+                     Their final tour was attended by over 840,000 fans with the final show taking place in San Francisco, the birthplace of the Grateful Dead. <i>retrieved from <a href="https://en.wikipedia.org/wiki/Dead_%26_Company">Dead & Company wikipedia</a></i>  
+                    </p>
+                </aside>
+                
+                <nav id="mySidenav" class="sidenav icon-bar">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a  href="http://lisabalbach.com/"><i class="fa fa-home"></i></a> 
+                    <a   href="https://www.pinterest.com/"><i class="fa fa-pinterest"></i></a> 
+                    <a  href="https://www.linkedin.com/"><i class="fa fa-linkedin-square"></i></a> 
+                    <a  href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a> 
+                    <a  href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a> 
+                
+                </nav>
+                
+                <script>
+                    function openNav(){
+                        document.getElementById("mySidenav").style.width = "120px";
+                        
+                    }
+                    function closeNav(){
+                        document.getElementById("mySidenav").style.width = "0";
+                        
+                    }
+                </script>
+            <footer class="col-12">
+                    <p>&copy;Nicole Vaughan</p>
+            </footer>
+        </section>
+    </article>
+    </body>
+</html>
+            
